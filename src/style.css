@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(248, 136, 128); 
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOI9f-1q1qE7ykRIbCjVQiNmE2mQuzAoe9Bg&s);
+    box-shadow: 0 2px 20px rgba(51, 51, 53, 0.904);
+
+}
+.first-container{
+    max-width: 600px;
+}
+.second-container{
+    max-width: 400px;
+}
+.home {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px ;
+    margin-top: 60px;
+}
+
+
+.home-information {
+    max-width: 500px;
+}
+
+.home-information h1 {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.home-information h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1, 5px;
+    text-align: center;
+}
+
+button {
+    background: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: red;
+    box-shadow: 0 2px 20px rgba(51, 51, 53, 0.904);
+}
+button:hover {
+    background: red;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.image img {
+    border-radius: 50%;
+    width: 400px;
+    margin-top: 20px;
+    transition: all 150ms ease-in-out;
+}
+.image img:hover{
+    filter: contrast(80%);
+    transform: scale(1.5);
+}
+.second {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.first {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.third {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.forth {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+.grid img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/2;
+    transition: all 150ms ease-in-out;
+}
+
+.grid img:hover {
+    transform: scale(2);
+}
